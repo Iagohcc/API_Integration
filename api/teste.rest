@@ -1,0 +1,12 @@
+get http://localhost:3333/
+
+###
+
+get http://localhost:3333/deals
+
+###
+
+get https://www.bling.com.br/Api/v2/pedidos/json?apikey=c60b1bdba7ef733b88003cef7cac45669093e518b6e059eb988a3575d99dcf79b5459da6
+
+###
+post https://www.bling.com.br/Api/v2/pedido/json?apikey=c60b1bdba7ef733b88003cef7cac45669093e518b6e059eb988a3575d99dcf79b5459da6&xml=<?xml version="1.0" encoding="UTF-8"?><pedido><cliente><nome>Teste</nome></cliente><itens><item><codigo>1</codigo><descricao>Negócio Teste</descricao><un>Un</un><qtde>1</qtde><vlr_unit>2000</vlr_unit></item></itens></pedido>
